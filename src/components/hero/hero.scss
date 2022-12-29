@@ -1,0 +1,101 @@
+.hero_container {
+    background-image: url("../../../public/images/back.png");
+    height: 100vh;
+    background-size: cover;
+
+    .left_box {
+        height: 100vh;
+    }
+
+    .right_box {
+        height: 100vh;
+    }
+}
+
+.card {
+    border-radius: 0px !important;
+}
+
+.login {
+    box-shadow: 0px 20px 100px rgba(34, 34, 34, 0.15);
+    width: 100%;
+    padding: 15px;
+
+    h5 {
+        font-family: 'montserrat';
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .login_input {
+        border: 1px solid #d3d3d3;
+        border-radius: 0px;
+    }
+
+    .line_cont {
+        background-image: url("../../../public/images/line.svg");
+        height: 400px;
+        position: relative;
+
+        .laptop {
+            position: absolute;
+            bottom: 10px;
+            right: -10px;
+            width: 120px;
+        }
+    }
+
+    .sign_button {
+        background: #381DDB;
+        box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+        border: none;
+        padding: 10px 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'montserrat';
+    }
+
+    .support {
+        margin-right: 5px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #222222;
+        font-family: 'Realway';
+    }
+
+    .email {
+        font-weight: 400;
+        font-size: 12px;
+        color: #381DDB;
+        font-family: 'Realway';
+    }
+
+}
+
+.rating {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-family: 'Realway';
+}
+
+.focus {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFA3A3;
+    font-family: 'montserrat';
+}
+
+.udix_para {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Realway';
+}
+
+.read {
+    color: #FFA3A3;
+    font-size: 16px;
+    font-family: 'Realway';
+}
