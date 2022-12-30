@@ -11,13 +11,13 @@ const Footer = () => {
         <Container fluid className="footer_con">
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} sx={12} sm={12} lg={6} xl={6}>
                         <div ><img src={process.env.PUBLIC_URL + '/images/udixlogo.png'} alt="udix" /></div>
                     </Col>
                     <Col md={6}>
 
                         <Row>
-                            <Col md={8} className="d-flex justify-content-end align-items-center">
+                            <Col xs={12} sm={12} md={8} lg={8} xl={8}   className="d-flex justify-content-end align-items-center">
                                 <Nav className="">
                                     <Nav.Link href="#home">home</Nav.Link>
                                     <Nav.Link href="#features">blog</Nav.Link>
@@ -25,7 +25,7 @@ const Footer = () => {
                                     <Nav.Link href="#pricing">contacts</Nav.Link>
                                 </Nav>
                             </Col>
-                            <Col md={4} className="d-flex justify-content-end align-items-center">
+                            <Col xs={12} sm={12} md={4} lg={4} xl={4} className="d-flex justify-content-end align-items-center">
                                 <span className="sign">sign in</span>
                                 <span className="sign">sign up</span>
                             </Col>
@@ -34,10 +34,10 @@ const Footer = () => {
                 </Row>
 
                 <Row>
-                    <Col md={6}>
+                    <Col xs={12} sm={12} md={6} lg={5} xl={6}>
                         <p>udix is a market-leading provider of digital marketing services, using<br /> proprietary tools and methodologies to generate high-value<br /> engagement for our customers.</p>
                     </Col>
-                    <Col md={6} className="icons_box d-flex align-items-center justify-content-end">
+                    <Col xs={12} sm={12} md={6} lg={5} xl={6} className="icons_box d-flex align-items-center justify-content-end">
                         <div ><img src={process.env.PUBLIC_URL + '/images/facebook.svg'}  alt="icons" className="footer_ico1"/></div>
                         <div ><img src={process.env.PUBLIC_URL + '/images/youtube.svg'}  alt="icons" className="footer_ico"/></div>
                         <div ><img src={process.env.PUBLIC_URL + '/images/linkedin.svg'}  alt="icons" className="footer_ico"/></div>
