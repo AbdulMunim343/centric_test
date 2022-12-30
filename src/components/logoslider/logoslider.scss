@@ -1,0 +1,27 @@
+.logo_container {
+    background: rgba(34, 34, 34, 0.03);
+    padding: 10px;
+    height: 50px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    img {
+        width: 80px;
+        margin: 0px !important;
+    }
+}
+
+.slick-slider .slick-slide {
+    padding: 0 15px;
+}
+
+
+.sliderheading {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'montserrat';
+}

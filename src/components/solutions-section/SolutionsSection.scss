@@ -1,0 +1,75 @@
+.sol_head {
+    transition: 0.5s;
+    h3 {
+        font-size: 30px;
+        font-family: 'montserrat';
+        font-weight: 700;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Realway';
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(34, 34, 34, 0.7);
+    }
+}
+
+.solutionBox {
+    padding: 10px 10px;
+
+    .main_ico {
+        font-size: 50px;
+        color: #381DDB;
+    }
+
+    .styleBox {
+        width: 20px;
+        height: 20px;
+        background: #381DDB;
+        visibility: hidden;
+    }
+
+    h5 {
+        font-weight: 800;
+        font-size: 20px;
+        font-family: 'montserrat';
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Realway';
+        color: rgba(34, 34, 34, 0.7);
+    }
+
+    img {
+        width: 50px;
+    }
+
+    &:hover {
+        background: #FFA3A3;
+
+        h5 {
+            color: #ffff;
+        }
+
+        p {
+            color: #ffff;
+        }
+
+        .ico {
+            color: #381DDB;
+        }
+
+        .main_ico {
+            color: white;
+        }
+
+        .styleBox{
+            visibility: visible;
+        }
+    }
+}

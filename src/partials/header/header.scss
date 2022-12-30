@@ -1,5 +1,7 @@
 .header {
     position: fixed;
+    z-index: 999999;
+    padding: 10px;
 
     .nav-link {
         color: white;
@@ -17,6 +19,12 @@
 
         &:nth-child(1) {
             margin-right: 20px;
+        }
+
+        &:nth-child(2) {
+            border: 1px solid #381DDB;
+            padding: 5px 10px;
+            cursor: pointer;
         }
     }
 }
