@@ -1,14 +1,175 @@
+@font-face {
+  font-family: 'montserrat';
+  font-style: normal;
+  font-display: swap;
+  src: url("../public/fonts/montserrat.woff2");
+
+}
 
 @font-face {
-    font-family: 'montserrat';
-    font-style: normal;
-    font-display: swap;
-    src: url("../public/fonts/montserrat.woff2");
-    
+  font-family: 'Realway';
+  font-style: normal;
+  font-display: swap;
+  src: url("../public/fonts/realway.woff2");
+}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+
+  .menu_visiblity{
+    display: none;
   }
-  @font-face {
-    font-family: 'Realway';
-    font-style: normal;
-    font-display: swap;
-    src: url("../public/fonts/realway.woff2");
+
+  .mob_menu_visibility{
+    display: block !important;
+}
+  
+  .hero_container {
+    height: 100% !important;
+
+    .left_box {
+      height: 100% !important;
+      margin-top: 6rem !important;
+    }
+
+    .right_box {
+      height: 100% !important;
+      margin-top: 20px !important;
+      margin-bottom: 20px !important;
+    }
   }
+
+  .text_slider {
+    margin-top: 3rem !important;
+  }
+
+  .text_conatiner {
+    margin-top: 3rem !important;
+  }
+
+  .top-box {
+    margin-bottom: 20px !important;
+  }
+
+  .bottom-box {
+    margin-top: 20px !important;
+  }
+
+  .subs_input {
+    input {
+      width: 100% !important;
+    }
+  }
+
+  .foot_logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .foot_menu {
+    .nav-link {
+      justify-content: center !important;
+      font-size: 12px !important;
+      margin-top: 15px !important;
+    }
+  }
+
+  .foot_button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 15px !important;
+  }
+
+  .foot_para {
+    text-align: center !important;
+    margin-top: 15px !important;
+  }
+
+  .icons_box {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .menu_visiblity{
+    display: none;
+  }
+
+  .mob_menu_visibility{
+    display: block !important;
+}
+  .hero_container {
+    height: 100% !important;
+
+    .left_box {
+      height: 100% !important;
+      margin-top: 20px !important;
+    }
+
+    .right_box {
+      height: 100% !important;
+      margin-top: 20px !important;
+      margin-bottom: 20px !important;
+    }
+  }
+
+  .text_slider {
+    margin-top: 3rem !important;
+  }
+
+  .text_conatiner {
+    margin-top: 3rem !important;
+  }
+
+  .top-box {
+    margin-bottom: 20px !important;
+  }
+
+  .bottom-box {
+    margin-top: 20px !important;
+  }
+
+  .subs_input {
+    input {
+      width: 100% !important;
+    }
+  }
+
+  .foot_logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .foot_menu {
+    .nav-link {
+      justify-content: center !important;
+      font-size: 12px !important;
+      margin-top: 15px !important;
+    }
+  }
+
+  .foot_button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 15px !important;
+  }
+
+  .foot_para {
+    text-align: center !important;
+    margin-top: 15px !important;
+  }
+
+  .icons_box {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 15px !important;
+  }
+}

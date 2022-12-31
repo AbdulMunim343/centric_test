@@ -12,10 +12,9 @@ const Hero = () => {
             <Container fluid className="hero_container">
                 <Container>
                     <Row className="justify-content-center">
-                        <Col md={8}>
-
+                        <Col sm={12} xs={12} md={8} lg={8} xl={8}>
                             <Row>
-                                <Col md={6} sm={6} lg={6} className="left_box d-flex align-items-center">
+                                <Col md={6} xs={12} sm={12} lg={6} xl={6} className="left_box d-flex align-items-center">
                                     <div>
                                         <div className="d-flex align-items-center mb-3">
                                             <img src={process.env.PUBLIC_URL + '/images/Vector.png'} alt="udix" />
@@ -30,11 +29,11 @@ const Hero = () => {
                                         <span className="read">Read me <BiChevronDownCircle /></span>
                                     </div>
                                 </Col>
-                                <Col md={6} sm={6} lg={6} className="right_box d-flex align-items-center">
+                                <Col sm={12} xs={12} md={6} lg={6} xl={6} className="right_box d-flex align-items-center">
                                     <Card className="login">
                                         <Card.Body>
                                             <Row>
-                                                <Col md={10}>
+                                                <Col md={10} sm={10} xs={10} lg={10} xl={10}>
                                                     <h5>Get Started Now</h5>
                                                     <Form>
                                                         <Form.Control type="input" className="login_input mb-3" placeholder="Name" />
@@ -50,7 +49,7 @@ const Hero = () => {
                                                     </div>
 
                                                 </Col>
-                                                <Col md={2} className="line_cont">
+                                                <Col sm={2} xs={2} md={2} xl={2} lg={2}  className="line_cont">
                                                     <img src={process.env.PUBLIC_URL + '/images/1.svg'} className="laptop" alt="udix" />
                                                 </Col>
                                             </Row>

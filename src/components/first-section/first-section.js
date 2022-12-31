@@ -34,7 +34,7 @@ const FirstSection = () => {
                                 <Col md={6}>
                                     <img src={process.env.PUBLIC_URL + '/images/img1.png'} className="udix1" width="100%" alt="udix" />
                                 </Col>
-                                <Col md={6}>
+                                <Col md={6} className="text_slider">
 
                                     <Slider {...settings}>
                                         <div>
@@ -69,8 +69,8 @@ const FirstSection = () => {
                                 <Col md={6}>
                                     <img src={process.env.PUBLIC_URL + '/images/illustrations.png'} className="udix2" width="100%" alt="udix" />
                                 </Col>
-                                <Col md={6}>
-                                    <h3 className="sec_sec mb-3">Creativity & Technology</h3>
+                                <Col md={6} className="text_conatiner">
+                                    <h3 className="sec_sec mb3-">Creativity & Technology</h3>
                                     <p className="sec_para">
                                         Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results
                                     </p>
